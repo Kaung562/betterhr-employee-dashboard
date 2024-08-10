@@ -3,11 +3,11 @@ export default [
         name: 'Master',
         path: '/',
         component: import('../layout/master'),
-        redirect: '/dashboard',
+        redirect: '/',
         children: [
             {
             name: 'table',
-            path: '/dashboard',
+            path: '/',
             component: import('./../components/table'),
             }
         ]
