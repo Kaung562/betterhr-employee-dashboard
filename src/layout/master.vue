@@ -1,6 +1,7 @@
 <template>
   <div class="w-screen h-screen flex overflow-hidden">
-    <sidebar class="flex-shrink-0" />
+    <sidebar class="flex-shrink-0" >
+   </sidebar>
     <div class="flex-1 flex overflow-hidden">
       <subsidebar class="flex-shrink-0" />
       <div class="flex-1 overflow-x-auto overflow-y-hidden">
@@ -13,8 +14,8 @@
 </template>
 
 <script>
-import Sidebar from "@/components/sidebar.vue";
-import Subsidebar from "@/components/subsidebar.vue";
+import Sidebar from "../components/sidebar.vue";
+import Subsidebar from "../components/subsidebar.vue";
 
 export default {
   components: { Sidebar, Subsidebar },
